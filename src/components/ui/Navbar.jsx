@@ -11,18 +11,19 @@ export const Navbar = ({ navItems, className }) => {
         transition={{ duration: 0.3, ease: "easeInOut" }}
         className={cn(
           "w-full fixed top-0 z-50 py-4 px-8 bg-black text-white shadow-lg flex justify-center items-center",
-          className
+          className,
+          "hidden md:flex" 
         )}
       >
         <div className="flex justify-between items-center w-full max-w-7xl">
-          {/* Logo or Title */}
+          
           <div className="text-xl font-bold">
             <a href="#" className="hover:text-gray-300">
               Llama Scholar
             </a>
           </div>
 
-          {/* Navigation Links */}
+         
           <div className="flex space-x-6">
             {navItems.map((navItem, idx) => (
               <a
