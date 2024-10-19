@@ -9,10 +9,10 @@ const Description = () => {
   const rotate = useTransform(scrollYProgress, [0.2, 1], [0, 360]); // Starts rotating after 20% scroll
 
   return (
-    <div className="flex flex-col md:flex-row items-center justify-between min-h-screen p-4 md:p-8 bg-black rounded-lg shadow-lg">
+    <div className="flex flex-col md:flex-row items-center justify-between min-h-[80vh] p-4 md:p-8 bg-black rounded-lg shadow-lg mt-12 md:mt-16">
       {/* Text Section */}
-      <div className="md:w-1/2 w-full text-white mb-4 md:mb-0 flex flex-col justify-center space-y-4">
-        <h2 className="text-3xl md:text-5xl font-bold mb-2 md:mb-4 text-center md:text-left">
+      <div className="md:w-1/2 w-full text-white mb-8 md:mb-0 flex flex-col justify-center space-y-4">
+        <h2 className="text-3xl md:text-5xl font-bold mb-4 md:mb-6 text-center md:text-left">
           Llama Scholar
         </h2>
         <p className="text-base md:text-lg text-center md:text-left">
@@ -33,7 +33,7 @@ const Description = () => {
         <motion.img
           src="/llama-bg.png" // Use relative path as per your project structure
           alt="Llama Scholar"
-          className="rounded-lg shadow-lg w-64 h-64 md:w-96 md:h-96 object-cover"
+          className="rounded-lg shadow-lg w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 object-cover"
           style={{ rotate }} // Apply rotation based on scroll progress
         />
       </div>
