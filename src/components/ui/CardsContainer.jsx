@@ -8,7 +8,7 @@ const CardsContainer = () => {
       title: "ocr",
       description: " extract key content from images.",
       popupDescription:
-        "This feature allows users to capture images using their device's camera or upload them, converting the images into text notes through an OCR process. The extracted text is automatically organized and tagged for easy reference. ",
+        "This feature allows users to capture images using their device's camera or upload them, converting the images into text notes through an OCR process. The extracted text is automatically organized . ",
     },
     //     {
     //       title: "/task",
@@ -19,13 +19,13 @@ const CardsContainer = () => {
       title: "ppt summarization",
       description: "condenses presentations,.",
       popupDescription:
-        "This feature enables users to automatically summarize presentations by extracting key points and highlights from the content. Utilizing advanced natural language processing techniques, it distills lengthy presentations into concise summaries, making it easier for users to grasp essential information quickly",
+        "This feature enables users to automatically summarize presentations by extracting key points and highlights from the content. Utilizing advanced natural language processing techniques, it distills lengthy presentations into concise summaries.",
     },
     {
       title: "generate imp questions",
       description: "creates critical questions.",
       popupDescription:
-        "This feature generates important questions based on the content provided, helping users engage more deeply with the material. By analyzing the key themes and concepts, it formulates relevant questions that prompt critical thinking and discussion.",
+        "This feature generates important questions based on the content provided, helping users engage more deeply with the material. By analyzing the key themes and concepts, it formulates relevant questions .",
     },
     //       title: "/time-table",
     //       description: "retrieve the most relevant questions from stored content.",
@@ -35,7 +35,7 @@ const CardsContainer = () => {
       title: "voice notes",
       description: " to convert memos into text,",
       popupDescription:
-        "This feature allows users to record and store voice notes, providing a convenient way to capture important information quickly. Users can easily organize their voice notes by categories or tags for efficient recall later. The recorded notes can be played back at any time, enabling users to revisit critical insights and details without the need for written documentation",
+        "This feature allows users to record and store voice notes, providing a convenient way to capture important information quickly. Users can easily organize their voice notes by categories or tags for efficient recall later. The recorded notes can be played back at any time.",
     },
   ];
 
