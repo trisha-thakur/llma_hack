@@ -4,6 +4,7 @@ import CardsContainer from './components/ui/CardsContainer';
 import Description from './components/ui/Description';
 import { Navbar } from './components/ui/Navbar';
 import Footer from './components/ui/Footer';
+import Video from './components/ui/Video';
 function App() {
   const navItems = [
     { name: 'Home', link: '#home' },
@@ -17,6 +18,7 @@ function App() {
       <Home />
       <Description />
       <CardsContainer />
+      <Video/>
       <Footer/>
     </div>
   );
